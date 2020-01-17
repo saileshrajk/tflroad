@@ -1,0 +1,12 @@
+﻿[
+    {
+        "$type": "Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities",
+        "id": "blah",
+        "displayName": "BLAH",
+        "statusSeverity": "Test Severity Status",
+        "statusSeverityDescription": "Test Severity Description",
+        "bounds": "[[-0.0857,51.44091],[0.17118,51.49438]]",
+        "envelope": "[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]",
+        "url": "/Road/blah"
+    }
+]
