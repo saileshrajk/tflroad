@@ -13,7 +13,7 @@ Configuration are in appsettings.json. All settings are mandatory.
 Please change the Application ID and Application key in this file.
 
 ## Usage
-Included in the zip is a folder called published. It is a self contained folder. 
+Included is a folder called publish. It is a self contained folder. 
 It needs the name of the road as an argument.
 The application can be run from with in here by executing the Tfl.RoadStatus.exe like below
 
