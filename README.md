@@ -17,8 +17,8 @@ Included in the zip is a folder called published. It is a self contained folder.
 It needs the name of the road as an argument.
 The application can be run from with in here by executing the Tfl.RoadStatus.exe like below
 
-- From the command prompt : Tfl.RoadStatus.exe A2
-- From PowerShell : .\Tfl.RoadStatus.exe A2
+- From the command prompt : RoadStatus.exe A2
+- From PowerShell : .\RoadStatus.exe A2
 
 ## Unit Tests
 Unit Tests can be run either via Visual Studio or dotnet cli running command 

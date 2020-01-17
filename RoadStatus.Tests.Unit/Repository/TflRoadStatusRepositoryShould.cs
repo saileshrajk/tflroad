@@ -65,7 +65,8 @@ namespace RoadStatus.Tests.Unit.Repository
 
             await WhenTheApiIsCalled(VALID_ROAD_NAME);
 
-            RoadResult.Should().NotBeNull();
+            RoadResult.Should()
+                .NotBeNull();
         }
 
         [Fact]
@@ -75,7 +76,9 @@ namespace RoadStatus.Tests.Unit.Repository
 
             await WhenTheApiIsCalled(VALID_ROAD_NAME);
 
-            RoadResult.Should().NotBeNull();
+            RoadResult.GetApplicationStatus()
+                .Should()
+                .NotBeNull();
         }
 
         [Fact]
